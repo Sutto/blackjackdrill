@@ -10,14 +10,14 @@ h1 {
     margin: 0 0 10px 0;
 }
 h2 {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 #strategy-shell {
-    margin: 0 0 10em 32em;
+    margin: 0 0 10em 38em;
 }
 #playing-area {
     float: left;
-    width: 30em;
+    width: 36em;
     margin-left: 30px;
 }
 #dealer-cards, #my-cards, #action {
@@ -43,13 +43,19 @@ h2 {
     display: block;
     text-align: center;
     width: 5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-box-shadow: 0.1em 0.1em 0.3em #333;
     padding: 3px;
     color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
     cursor: pointer;
 }
 #action li span {
     display: block;
-    font-size: 0.8em;
+    font-size: 1em;
+    font-weight: normal;
     color: #888;    
 }
 #action li#hit {
@@ -76,6 +82,7 @@ h2 {
     text-align: center;
     font-size: 2em;
     background: #ccc;
+    padding: 0.37em;
 }
 #response div.correct {
     color: #080;
@@ -86,7 +93,7 @@ h2 {
     background: #f88;
 }
 table#strategy {
-    font-size: 0.65em;
+    font-size: 1em;
     background: white;
     border-collapse: collapse;
     border-spacing: 0;
@@ -135,4 +142,17 @@ table#strategy td.P {
 table#strategy td.highlighted {
     color: #fff;
     background: #f80;
+}
+
+#correct {
+  cursor: pointer;
+  width: 80%;
+  margin: 0 0 0 20px;
+  clear: both;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.5em;
+  background: #fff;
+  color: #3156CC;
+  display: none;
 }
