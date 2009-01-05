@@ -174,6 +174,7 @@ function initBlackjack() {
 
   $(document).keypress(function(evt) {
       if (answered) {
+          $('#correct').hide();
           deal();
           if (evt.which == 32) {
               evt.stopPropagation();
